@@ -1,4 +1,6 @@
+import { ModeToggle } from "@/components/mode-toggle";
 import { Button } from "@/components/ui/button";
+
 
 export default function HomePage() {
   return (
@@ -6,6 +8,7 @@ export default function HomePage() {
       <div className="flex flex-col items-center justify-center gap-4">
         <h1 className="text-2xl font-bold">Hello Customer</h1>
         <Button size="sm">Get Started</Button>
+        <ModeToggle />
       </div>
     </div>
   )
